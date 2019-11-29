@@ -23,6 +23,7 @@ while name_index < nds.length do
     movie_index += 1
   end
   result[director_name] = total_gross
+  p director_name
   p total_gross
   name_index += 1
 end
