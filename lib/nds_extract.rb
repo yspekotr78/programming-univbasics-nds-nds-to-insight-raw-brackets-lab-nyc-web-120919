@@ -17,7 +17,7 @@ while row_index < nds.length do
   director_name = nds[row_index][:name]
   #puts director_name
   column_index = 0
-  total_gross = 0
+  result[director_name] = 0
   while column_index < nds[row_index][:movies].length do
     result[director_name] += nds[row_index][:movies][column_index][:worldwide_gross]
   #  result[director_name] += nds[row_index][:movies][column_index][:worldwide_gross]
