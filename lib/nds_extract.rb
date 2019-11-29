@@ -20,7 +20,7 @@ def directors_totals(nds)
     name_index += 1
   end
  # puts result
- puts nds
+ pp nds
   return result
 end
 
