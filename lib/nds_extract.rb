@@ -11,8 +11,8 @@ def directors_totals(nds)
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   # directors_database[row_index][:movies][column_index][:worldwide_gross]
 result = {}
-movie_index = 0
-while movie_index < nds.length do
+row_index = 0
+while row_index < nds.length do
   director_name = nds[row_index][:name]
   column_index = 0
   total_gross = 0
