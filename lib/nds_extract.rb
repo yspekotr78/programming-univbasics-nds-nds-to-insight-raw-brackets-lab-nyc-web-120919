@@ -27,7 +27,7 @@ while name_index < nds.length do
   p total_gross
   name_index += 1
 end
-puts result
+#puts result
 return result
 
   #
