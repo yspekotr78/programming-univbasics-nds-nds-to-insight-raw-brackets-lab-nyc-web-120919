@@ -23,7 +23,7 @@ while name_index < nds.length do
     
   end
   
-#  result[director_name] = total_gross
+  result[director_name] = total_gross
   name_index += 1
 end
 puts result
