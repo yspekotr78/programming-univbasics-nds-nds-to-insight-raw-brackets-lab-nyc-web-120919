@@ -18,9 +18,7 @@ while name_index < nds.length do
   total_gross = 0
   while movie_index < nds[name_index][:movies].length do
     total_gross += nds[name_index][:movies][movie_index][:worldwide_gross]
-  #  result[director_name] += nds[name_index][:movies][column_index][:worldwide_gross]
     movie_index += 1
-    
   end
   
   result[director_name] = total_gross
