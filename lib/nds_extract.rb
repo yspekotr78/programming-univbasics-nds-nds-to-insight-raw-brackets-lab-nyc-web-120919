@@ -14,14 +14,14 @@ result = {}
 row_index = 0
 	
 while row_index < nds.length do
-  director_name = nds[director_index][:name]
+  director_name = nds[row_index][:name]
   column_index = 0
   total_gross = 0
   while column_index < nds[row_index][:movies].length do
     total_gross += nds[row_index][:movies][column_index][:worldwide_gross]
     column_index += 1
   end
-  result[nds[row_index][:name]] = total_gross
+  result[director_name] = total_gross
   row_index += 1
 end
 pp nds
