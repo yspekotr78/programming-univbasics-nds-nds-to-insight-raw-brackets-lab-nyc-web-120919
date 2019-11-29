@@ -25,7 +25,7 @@ while row_index < nds.length do
   result[director_name] = total_gross
   row_index += 1
 end
-pp nds
+
 return result
 
   #
