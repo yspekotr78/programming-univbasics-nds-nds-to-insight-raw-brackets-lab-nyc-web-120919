@@ -15,6 +15,7 @@ row_index = 0
 	
 while row_index < nds.length do
   director_name = nds[row_index][:name]
+  puts director_name
   column_index = 0
   total_gross = 0
   while column_index < nds[row_index][:movies].length do
