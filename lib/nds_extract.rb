@@ -22,7 +22,7 @@ while row_index < nds.length do
     total_gross += nds[row_index][:movies][column_index][:worldwide_gross]
     column_index += 1
   end
-  result << director_name + total_gross
+  result << director_name
   #result[director_name] = total_gross
   row_index += 1
 end
